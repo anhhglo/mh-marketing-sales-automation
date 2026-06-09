@@ -1,0 +1,27 @@
+# Secrets — never commit real values
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*credentials*.json
+*secret*
+*token*
+MH_SYSTEM_KEYS.md
+
+# n8n / runtime
+.n8n/
+n8n_data/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+
+# Archives / large binaries
+*.rar
+*.zst
+*.tar.gz
+*.log
